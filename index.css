@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+header a {
+    color: hsl(240, 33%, 98%);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #fffb0c; /* Highlight the link on hover */
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px 40px; /* Added padding */
+    margin: 20px auto; /* Increased margin */
+    max-width: 800px;
+    background-color: #fff; /* Added background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+
+h2 {
+    border-bottom: 2px solid #494848;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ 
+.job h3, .degree h3 {
+    font-size: 1.4em;
+    color: #4b4848;
+}
+
+.date {
+    font-style: italic;
+    color: #999;
+}
+
+.skills ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0;
+}
+
+.skills ul li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+
